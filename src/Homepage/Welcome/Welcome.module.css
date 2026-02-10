@@ -1,0 +1,42 @@
+
+
+.meImage {
+  width: 40%;
+  height: auto;
+  position: absolute;
+  left: 45vw;
+  top: 15vw;
+  transform: rotate(-5deg);
+}
+
+/* Hi component styles */
+
+.hiText {
+  margin-top: 4vw;
+  font-size: 2.5vw;
+  color: #0D00FF;
+}
+
+.meredithImage {
+  margin-left: -1vw;
+  max-width: 50vw;
+}
+
+.functionMeredithImage {
+  width: 40%;
+  max-width: 25vw;
+  margin-top: 1vw;
+}
+
+/* Portfolio component styles */
+.portfolioText {
+  font-size: 2.5vw;
+  color: #0D00FF;
+  margin-left: 69vw;
+  margin-top: 8vw;
+}
+
+.portfolioImage {
+  max-width: 28vw;
+  margin-left: 58vw;
+}
