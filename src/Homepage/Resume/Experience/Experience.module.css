@@ -1,0 +1,17 @@
+
+.section{
+    display: flex;
+    flex-direction: column;
+}
+.subtitle{
+    font-size: 1.5vw;
+    font-family: "Xanh Mono";
+    font-style: italic;
+}
+
+.info{
+    font-size: 1vw;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 0.5vw;
+    font-style: normal;
+}

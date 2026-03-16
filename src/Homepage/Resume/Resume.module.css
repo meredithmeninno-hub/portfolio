@@ -1,0 +1,22 @@
+.resume{
+    padding-left: 10vw;
+}
+
+.title{
+    font-size: 2vw;
+    font-family: "Xanh Mono";
+    text-decoration: underline;
+    padding-bottom: 1vw;
+    padding-top: 3vw;
+}
+
+.subtitle{
+    font-size: 1.2vw;
+    font-family: "Xanh Mono";
+    font-style: italic;
+}
+
+.exp{
+    display: flex;
+    gap: 8vw;
+}

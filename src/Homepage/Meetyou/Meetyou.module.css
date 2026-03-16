@@ -1,0 +1,51 @@
+.section{
+
+    display: flex;
+    font-size: 3vw;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.gif{ 
+    height: 20vw;
+    border-radius: 1000px;
+    background-color: white;
+    padding-top: 5px;
+    transform: translateX(-5vw)
+}
+
+.meet{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0vw;
+    padding-top: 2vw;
+    font-family: "Xanh Mono";
+    font-style: italic;
+}
+
+
+
+.heart{
+    color: #FC7EC8;
+}
+
+.bio{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3vw;
+    max-width: 50vw;
+    line-height: 2.2vw;
+    padding-top: 3vw;
+}
+
+@media (max-width: 800px){
+    .section{
+        flex-direction: column;
+       align-items: center;
+       text-align: center
+    }
+
+    .gif{
+        transform: none;
+    }
+}

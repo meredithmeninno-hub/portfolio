@@ -1,15 +1,15 @@
-import { Welcome } from "./Welcome/Welcome.jsx"
-import { About } from "./About/About.jsx"
-import { Contents } from "./Contents/Contents.jsx"
-import styles from "./globalHomepage.module.css"
+import { Nav } from "./Nav/Nav.jsx"
+import { Intro } from "./Intro/Intro.jsx"
+import { Meetyou } from "./Meetyou/Meetyou.jsx"
+import { Resume } from "./Resume/Resume.jsx"
 
 export function Homepage(){
     return(
         <>
-        <Welcome/>
-        <About/>
-        <Contents/>
-        </>
+       <Nav/>
+       <Intro/>
+       <Meetyou paddingTop = "20"/>
+       <Resume paddingTop = "3"/>
+       </>
     )
 }
-
