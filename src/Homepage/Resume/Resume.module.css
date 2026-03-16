@@ -8,15 +8,34 @@
     text-decoration: underline;
     padding-bottom: 1vw;
     padding-top: 3vw;
+
 }
 
 .subtitle{
     font-size: 1.2vw;
     font-family: "Xanh Mono";
     font-style: italic;
+    max-width: 10px;
+}
+
+.subtitle2{
+       font-size: 1.2vw;
+    font-family: "Xanh Mono";
+    font-style: italic;
+    padding-top: 3vw
 }
 
 .exp{
     display: flex;
     gap: 8vw;
+}
+
+.skills{
+    padding-top: 1vw;
+    font-size: 1vw;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 32vw;
+    gap: 2vw;
+    
 }
