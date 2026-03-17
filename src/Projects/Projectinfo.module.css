@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    gap: 10vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 3vw;
+    padding-bottom: 2vw;
+    position: fixed;
+    bottom: 0;
+    background-color: #F0F0F0;
+}
+
+.title{
+    font-family: "Xanh Mono";
+    font-size: 2vw;
+}
+
+.subtitle{
+    font-size: 1vw;
+    font-style: italic;
+}
+
+.info{
+    font-size: 1vw;
+    max-width: 40vw;
+}
