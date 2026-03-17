@@ -15,7 +15,6 @@
     font-size: 1.2vw;
     font-family: "Xanh Mono";
     font-style: italic;
-    max-width: 10px;
 }
 
 .subtitle2{
@@ -38,4 +37,23 @@
     max-width: 32vw;
     gap: 2vw;
     
+}
+
+@media (max-width: 800px){
+    .title{
+        font-size: 3vw;
+    }
+
+    .subtitle{
+        font-size: 2vw;
+    }
+
+    .subtitle2{
+        font-size: 2vw;
+    }
+
+    .skills{
+        font-size: 1.8vw;
+        gap: 1.5vw;
+    }
 }

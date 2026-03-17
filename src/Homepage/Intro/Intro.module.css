@@ -24,9 +24,9 @@
 .name {
     font-size: 2vw;
     padding-bottom: 1vw;
-    padding-top: 40vw;
-    letter-spacing: 0.1em;
-    font-style: italic;
+    padding-top: 37vw;
+    letter-spacing: 0.15em;
+    color: rgb(46, 46, 46);
 }
 
 .multi {
@@ -38,8 +38,9 @@
 
 .bio {
     font-size: 1.4vw;
-    max-width: 80vw;
+    max-width: 35vw;
     text-align: center; 
+    line-height: 2vw;
    color: #282626;
 }
 
@@ -47,22 +48,24 @@
 .logo{
    
     width: 100vw;
-    transform: translateY(-2em)
+    transform: translateY(-1em)
 }
 
 
 .name{
     padding-top: 40vw;
-    font-size: 1em;
+    font-size: 0.8em;
     padding-bottom: 0.8vw;
 }
 .multi {
-    font-size: 0.8em;
+    font-size: 0.6em;
     padding-bottom: 1vw;
 }
 
 .bio{
-    font-size: 0.8em;
+    font-size: 0.7em;
+    max-width: 60vw;
+    line-height: 4.5vw;
 }
 
 }

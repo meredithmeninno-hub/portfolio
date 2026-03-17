@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5vw;
+    padding-left: 10vw;
+}
+
+.contact{
+    display: flex;
+    font-size: 2vw;
+    font-style: italic;
+    padding-bottom: 2vw;
+}
+
+.info{
+    display: flex;
+    
+    gap: 2vw;
+    font-size: 1.2vw;
+    
+}
+
+
+@media (max-width: 800px){
+    .contact{
+        font-size: 4vw;
+        padding-bottom: 3vw;
+    }
+
+    .info{
+        font-size: 2.5vw
+    }
+}

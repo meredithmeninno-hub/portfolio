@@ -1,6 +1,18 @@
 .button{
     font-family: lores-15-narrow, sans-serif;
-    font-size: 1em;
+    font-size: 1.5vw;
     font-style: normal;
     color: rgb(41, 41, 41);
+}
+
+.button:hover{
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+}
+
+@media (max-width: 800px){
+    .button{
+        font-size: 3vw;
+    }
 }

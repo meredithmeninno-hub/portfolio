@@ -1,0 +1,75 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: solid black 1px;
+
+}
+
+.txtcontainer{
+    height: 40vw;
+    border-right:solid black 1px;
+    padding-top: 15vw;
+    padding-left: 10vw
+}
+
+.imgcontainer{
+    height: 40vw;
+
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+}
+
+.title{
+font-family: "Xanh Mono";
+font-size: 3vw;
+}
+
+.subtitle{
+padding-top: 0.5vw;
+font-style: italic;
+font-size: 1.2;
+}
+
+.abt{
+padding-top: 1vw;
+font-size: 1.2vw;
+max-width: 250px;
+line-height: 1.6vw;
+padding-bottom: 3vw;
+font-style: italic;
+}
+
+
+.img{
+    justify-content: center;
+}
+
+
+@media (max-width: 800px){
+    .container{
+        border:solid black 0.5px;
+    }
+
+    .txtcontainer{
+        padding-top: 8vw;
+        border-right:solid black 0.5px;
+    }
+
+    .title{
+        font-size: 4vw;
+    }
+
+    .subtitle{
+        padding-top: 1vw;
+        font-size: 2.5vw;
+    }
+
+    .abt{
+        font-size: 2vw;
+        line-height: 2.5vw;
+        max-width: 30vw;
+    }
+
+   
+}

@@ -48,4 +48,14 @@
     .gif{
         transform: none;
     }
+
+    .meet{
+        font-size: 3vw;
+    }
+
+    .bio{
+        font-size: 2vw;
+        max-width: 65vw;
+        line-height: 2.5vw;
+    }
 }
