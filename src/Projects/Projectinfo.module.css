@@ -8,6 +8,8 @@
     position: fixed;
     bottom: 0;
     background-color: #F0F0F0;
+    z-index: 1000;
+    width: 100vw;
 }
 
 .title{
@@ -23,4 +25,23 @@
 .info{
     font-size: 1vw;
     max-width: 40vw;
+}
+
+
+@media (max-width: 800px){
+
+    .container{
+        gap: 6vw;
+    }
+    .title{
+        font-size: 4vw;
+    }
+
+    .subtitle{
+        font-size: 3vw;
+    }
+
+    .info{
+        font-size: 1.5vw;
+    }
 }

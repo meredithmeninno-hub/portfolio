@@ -1,0 +1,121 @@
+
+
+.postercontainer{
+    width: 100vw;
+    height: auto;
+    background-image: url(./images/bgtexture.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.processcontainer{
+    padding-top: 4vw;
+    margin: auto;
+    max-width: 50vw;
+}
+
+.process{
+    font-style: italic;
+    font-size: 1.4vw;
+    padding-top: 2vw;
+    line-height: 2vw;
+}
+
+.rawcontainer{
+    padding-top: 10vw;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.raw{
+    width: auto;
+    height: 34vw;
+    background-color: black;
+}
+
+.label{
+    text-align: center;
+    font-size: 1.4vw;
+    padding-top: 1vw;
+    font-style: italic;
+
+}
+
+.postcontainer {
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 10vw;
+}
+
+.post {
+    display: block;
+    height: 35vw;
+    width: auto;
+    object-fit: contain;
+}
+
+.story{
+    display: block;
+    margin: auto;
+    height: 70vw;
+    padding-top: 10vw;
+    padding-bottom: 15vw;
+}
+
+.posterbundle{
+    display: block;
+    margin: auto;
+    height: 50vw;
+    padding-top: 2vw;
+    padding-bottom: 5vw;
+
+}
+
+@media (max-width: 800px){
+    .processcontainer{
+        max-width: 60vw;
+    }
+
+    .process{
+        font-size: 2vw;
+        line-height: 2.5vw;
+    }
+
+    .rawcontainer{
+        flex-direction: column;
+        align-items:center;
+        
+    }
+
+    .postercontainer{
+        display: flex;
+        height: 100vw;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .posterbundle{
+        height: 60vw;
+    }
+
+    .raw{
+    height: 40vw;
+     width: auto;
+    }
+
+    .post{
+        height: 60vw;
+    }
+    .story{
+        height: 100vw;
+        padding-bottom: 20vw;
+    }
+}

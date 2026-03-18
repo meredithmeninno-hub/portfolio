@@ -10,10 +10,19 @@ export function Homepage(){
         <>
        <Nav/>
        <Intro/>
+
+       <section id="abtme">
        <Meetyou paddingTop = "10"/>
        <Resume paddingTop = "5"/>
+       </section>
+
+       <section id="mywork">
        <ProjectSection paddingTop = "10"/>
-       <Contact paddingTop = "10"/>
+       </section>
+    
+        <section id="contact">
+       <Contact paddingTop = "20"/>
+       </section>
        </>
     )
 }

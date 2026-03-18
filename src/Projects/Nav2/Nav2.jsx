@@ -5,11 +5,7 @@ export function Nav2(){
     return(
     <div className = {styles.nav}>
         <div className = {styles.alignl}>
-        <Button text = "HOME"/>
-        </div>
-
-        <div className = {styles.alignr}>
-        <Button text = "CONTACT"/>
+        <Button text = "HOME" to="/"/>
         </div>
     </div>
     )

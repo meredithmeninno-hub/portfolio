@@ -1,0 +1,81 @@
+.container{
+    padding-top: 3vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+/* create function to enlarge image as overlay when clicked, use usestate */
+.flatpackaging{
+    transform: translateX(5vw);
+    height: 50vw;
+}
+
+.drawing{
+    height: 30vw;
+}
+
+.video{
+    height: 40vw;
+    background-color: black;
+    width: 50vw;
+    
+}
+
+.label{
+    height: 30vw;
+}
+
+.box{
+    height: 35vw;
+}
+
+.video2{
+    height: 50vw;
+     background-color: black;
+    width: 50vw;
+    margin-bottom: 2vw;
+}
+
+.subtitle{font-size: 0.7vw;
+text-align: right;
+font-style: italic;
+padding-top: 0.5vw
+}
+
+@media (max-width: 800px){
+   .container{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+   }
+
+   .flatpackaging{
+    height: 70vw;
+    transform: translateX(-2vw);
+   }
+
+   .drawing{
+    height: 50vw;
+   }
+
+   .subtitle{
+    font-size: 2vw;
+   }
+    .video{
+        height: 80vw;
+        width: auto;
+    }
+
+    .video2{
+        height: 100vw;
+        width: auto;
+    }
+
+    .label{
+        height: 50vw;
+    }
+    .box{
+        height: 60vw;
+    }
+}

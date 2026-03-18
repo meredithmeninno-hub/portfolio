@@ -1,0 +1,45 @@
+.magmock{
+    padding-top: 2vw;
+    width: 90vw;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+.cd{
+    padding-top: 5vw;
+    width: 60vw;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+.processcontainer{
+    padding-top: 4vw;
+    margin: auto;
+    max-width: 70vw;
+}
+
+.end{
+    padding: 5vw;
+}
+
+.process{
+    font-style: italic;
+    font-size: 1.4vw;
+    padding-top: 2vw;
+    line-height: 2vw;
+    padding-bottom: 2vw;
+}
+
+@media (max-width: 800px){
+     .process{
+        font-size: 2vw;
+        line-height: 2.5vw;
+        padding-bottom: 4vw;
+    }
+    
+    .end{
+        padding: 10vw;
+    }
+}

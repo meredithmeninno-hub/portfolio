@@ -6,7 +6,7 @@ export function Meetyou({ paddingTop }) {
   const heart = "♡";
 
   return (
-    <div className={styles.section} style={{ paddingTop: `${paddingTop}vw` }}>
+    <div id="ABOUTME" className={styles.section} style={{ paddingTop: `${paddingTop}vw` }}>
       <img src={megif} className={styles.gif} alt="Meet GIF" />
 
       <div className={styles.meet}>

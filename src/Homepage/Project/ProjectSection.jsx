@@ -8,15 +8,15 @@ export function ProjectSection({paddingTop}){
     return(
         <div style = {{paddingTop: `${paddingTop}vw`}}>
 
-        <Project title="PIVIONE" subtitle="PACKAGING DESIGN"
+        <Project page="/pivione" title="PIVIONE" subtitle="PACKAGING DESIGN"
         abt="Perfume packaging design with hand-drawn abstraction representative of the peony flower" imgheight = "45" imgsrc = {perfumeteaser}
         />
         
-        <Project title="REFRACTED" subtitle="Festival Identity"
+        <Project page="/refracted" title="REFRACTED" subtitle="Festival Identity"
         abt="Festival identity kit including logo, posters variations, and social media content." imgheight = "30" imgsrc = {refractedteaser}
         />
 
-        <Project title="FADS MAGAZINE" subtitle="EDITORIAL DESIGN"
+        <Project page="/fads" title="FADS MAGAZINE" subtitle="EDITORIAL DESIGN"
         abt="Magazine spread and single pages created for the Fashion and Design Society at UC Davis" imgheight = "30" imgsrc = {fadsteaser}
         />
         </div>
