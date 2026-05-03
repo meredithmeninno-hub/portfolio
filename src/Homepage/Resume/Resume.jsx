@@ -20,6 +20,7 @@ export function Resume({paddingTop}){
             <p>Adobe Illustrator</p>
             <p>Adobe Photoshop</p>
             <p>Adobe InDesign</p>
+            <p>Adobe AfterEffects</p>
             <p>Figma</p>
             <p>Procreate</p>
             <p>Blender</p>
